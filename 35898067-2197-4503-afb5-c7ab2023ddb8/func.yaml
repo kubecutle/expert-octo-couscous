@@ -1,0 +1,24 @@
+specVersion: 0.34.0
+name: knative
+runtime: node
+registry: ""
+image: ""
+imageDigest: ""
+created: 2023-04-25T03:49:02.35637469Z
+invocation:
+  format: http
+build:
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: ""
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness
